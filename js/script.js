@@ -54,5 +54,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 $(document).ready(function() {
     // Change the background color of the body
-    $("body").css("background-color", "grey");
+    $("body").css("background-color", "white");
 });
