@@ -2,8 +2,16 @@ header h1 {
     padding: 30px;
 }
 
+header h1:hover{
+    color:white;
+}
+
+*{
+    background:url()
+}
+
 header {
-    background-color: rgb(58, 124, 190);
+    background-color: rgba(13, 100, 181, 0.76);
     color: black;
     padding: 10px;
     display: flex;
@@ -17,7 +25,7 @@ header {
 header .header-container {
     display: flex;
     align-items: center;
-    border-radius: 50%;
+    
 }
 
 header .logo-img {
@@ -26,7 +34,13 @@ header .logo-img {
     border-radius: 60%;
 }
 
+.ani{
+    font-size:30px;
+    color:rgb(43, 255, 0);
+    text-align: center;
+    margin:10px;
 
+}
 
 .attractive {
     text-align: center;
@@ -34,15 +48,13 @@ header .logo-img {
     color: black;
     font-weight: bold;
     padding: 30px;
-    background-color: rgb(161, 168, 61);
+    background-color: rgb(105, 115, 14);
         
 }
 
-.attractive:hover{
-    color:#ff2a00;
+
     
     
-}
 
 .attractive img {
     max-width: 100%;
@@ -69,11 +81,6 @@ body {
     padding-left: 8%;
 }
 
-/* nav{
-    position:fixed;
-    text-align: right;
-} */
-
 
 
 nav ul {
@@ -92,7 +99,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-    /* position:sticky; */
+    
 }
 
 nav ul li a:hover {
@@ -103,6 +110,9 @@ nav ul li a:hover {
     margin: 3%;
     font-size: 25px;
 }
+
+
+
 
 .btn.btn-primary {
     background-color: #ff2a00;
@@ -118,6 +128,7 @@ nav ul li a:hover {
     margin: 10px;
     width: 45%;
     text-align: center;
+    position:relative;
 }
 
 .dish img {
@@ -126,7 +137,7 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-.food-list {
+/* .food-list {
     text-align: center;
     margin-top: 30px;
 }
@@ -143,7 +154,7 @@ button {
 
 button:hover {
     background-color: red;
-}
+} */
 
 footer {
     background-color: brown;
@@ -177,15 +188,3 @@ footer ul li a:hover {
     color: blue;
 }
 
-
-
-/* nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #d18323;
-    z-index: 1000; 
-    padding: 10px 0;
-}
-
- */
