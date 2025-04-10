@@ -8,19 +8,6 @@ $(document).ready(function() {
 
 
 
-// $(document).ready(function() {
-    
-//     $('.dish').click(function() {
-//         $(this).find('img').animate({
-//             width: '150px', 
-//             height: '100px', 
-//             left: '+=100px', 
-//             top: '+=100px', 
-//             opacity: 0.5 
-//         }, 1000); 
-//     });
-// });
-    
 
 $(document).ready(function() {
     $('.dish').click(function() {
@@ -44,4 +31,10 @@ $(document).ready(function() {
             }, 1000); 
         }
     });
+});
+
+
+const toggleThemeBtn = document.getElementById("toggleTheme");
+toggleThemeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
 });

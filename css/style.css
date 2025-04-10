@@ -2,13 +2,43 @@ header h1 {
     padding: 30px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+.theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 999;
+    padding: 0.5rem 1rem;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
 header h1:hover{
     color:white;
 }
 
-*{
-    background:url()
-}
+
 
 header {
     background-color: rgba(13, 100, 181, 0.76);
@@ -33,6 +63,10 @@ header .logo-img {
     width: 12%;
     border-radius: 60%;
 }
+
+
+/* just the random text */
+
 
 .ani{
     font-size:30px;
