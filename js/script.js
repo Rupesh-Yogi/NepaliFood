@@ -34,7 +34,16 @@ $(document).ready(function() {
 });
 
 
-const toggleThemeBtn = document.getElementById("toggleTheme");
-toggleThemeBtn.addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
+// const toggleThemeBtn = document.getElementById("toggleTheme");
+// toggleThemeBtn.addEventListener("click", () => {
+//   document.body.classList.toggle("dark-mode");
+// });
+
+
+// Get the toggle button
+const toggleButton = document.getElementById('toggleButton');
+
+// Add click event to toggle dark mode
+toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
 });
