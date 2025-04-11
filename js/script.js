@@ -40,10 +40,32 @@ $(document).ready(function() {
 // });
 
 
-// Get the toggle button
-const toggleButton = document.getElementById('toggleButton');
+// // Get the toggle button
+// const toggleButton = document.getElementById('toggleButton');
 
-// Add click event to toggle dark mode
-toggleButton.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
+// // Add click event to toggle dark mode
+// toggleButton.addEventListener('click', () => {
+//     document.body.classList.toggle('dark-mode');
+// });
+
+
+// document.getElementById('toggleButton').addEventListener('click', function() {
+//     document.body.classList.toggle('dark-mode');
+
+//     if (document.body.classList.contains('dark-mode')) {
+//         document.body.style.backgroundColor = '#121212';
+//     } else {
+//         document.body.style.backgroundColor = 'white';
+//     }
+// });
+
+
+$('#toggleButton').click(function() {
+    $('body').toggleClass('dark-mode');
+    
+    if ($('body').hasClass('dark-mode')) {
+        $('body').css('background-color', '#121212');
+    } else {
+        $('body').css('background-color', 'white');
+    }
 });

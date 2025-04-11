@@ -7,12 +7,11 @@ html {
 }
 
 /* Light mode (default) */
-body {
+/* body {
     background-color: white;
     color: black;
     font-family: Arial, sans-serif;
-}
-
+} */
 button {
     padding: 10px;
     cursor: pointer;
@@ -36,7 +35,7 @@ body.dark-mode button {
     background-color: #444;
     color: #ddd;
 }
-
+/* Dark mode button hover effect */
 
 
 header h1:hover{
