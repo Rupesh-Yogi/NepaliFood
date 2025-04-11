@@ -1,6 +1,23 @@
 header h1 {
     padding: 30px;
+    /* width:20ch;
+    font-family: monospace;
+    text-wrap:nowrap;
+    overflow: hidden; */
+    animation:typing 2s steps(20) infinite alternate-reverse
 }
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+
+}
+
+header h1:hover{
+    color:white;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -38,9 +55,6 @@ body.dark-mode button {
 /* Dark mode button hover effect */
 
 
-header h1:hover{
-    color:white;
-}
 
 
 
@@ -72,13 +86,50 @@ header .logo-img {
 
 
 
-.ani{
+/* .ani{
     font-size:30px;
     color:rgb(43, 255, 0);
     text-align: center;
     margin:10px;
-
+    width:20ch;
+    font-family: monospace;
+    text-wrap:nowrap;
+    overflow: hidden;
+    animation:typing 2s steps(20) infinite alternate-reverse
 }
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+
+} */
+
+.ani {
+    font-size: 30px;
+    color: rgb(43, 255, 0);
+    margin: 10px auto;
+    width: 38ch;  /* Adjusted to full text length */
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    animation: typing 2s steps(38) infinite alternate-reverse;
+}
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 38ch;  /* Matches full text length */
+    }
+}
+
+
+
+
 
 .attractive {
     text-align: center;
