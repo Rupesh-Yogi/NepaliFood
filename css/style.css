@@ -1,9 +1,6 @@
 header h1 {
     padding: 30px;
-    /* width:20ch;
-    font-family: monospace;
-    text-wrap:nowrap;
-    overflow: hidden; */
+
     animation:typing 2s steps(20) infinite alternate-reverse
 }
 
@@ -23,12 +20,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Light mode (default) */
-/* body {
-    background-color: white;
-    color: black;
-    font-family: Arial, sans-serif;
-} */
 button {
     padding: 10px;
     cursor: pointer;
@@ -42,17 +33,7 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Dark mode styles */
-body.dark-mode {
-    background-color: #121212;
-    color: white;
-}
 
-body.dark-mode button {
-    background-color: #444;
-    color: #ddd;
-}
-/* Dark mode button hover effect */
 
 
 
@@ -82,28 +63,6 @@ header .logo-img {
     border-radius: 60%;
 }
 
-
-
-
-
-/* .ani{
-    font-size:30px;
-    color:rgb(43, 255, 0);
-    text-align: center;
-    margin:10px;
-    width:20ch;
-    font-family: monospace;
-    text-wrap:nowrap;
-    overflow: hidden;
-    animation:typing 2s steps(20) infinite alternate-reverse
-}
-
-@keyframes typing {
-    from {
-        width: 0ch;
-    }
-
-} */
 
 .ani {
     font-size: 30px;
@@ -228,24 +187,6 @@ nav ul li a:hover {
     
 }
 
-/* .food-list {
-    text-align: center;
-    margin-top: 30px;
-}
-
-button {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: red;
-} */
 
 footer {
     background-color: brown;
