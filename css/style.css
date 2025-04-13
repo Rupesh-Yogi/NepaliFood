@@ -115,7 +115,7 @@ header .logo-img {
     overflow: hidden;
     display: block;
     text-align: center;
-    animation: typing 2s steps(38) infinite alternate-reverse;
+    animation: typing 4s steps(38) infinite alternate-reverse;
 }
 
 @keyframes typing {
