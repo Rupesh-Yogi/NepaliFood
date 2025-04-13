@@ -224,6 +224,8 @@ nav ul li a:hover {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    position: relative;
+    
 }
 
 /* .food-list {

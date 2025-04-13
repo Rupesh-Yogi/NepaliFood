@@ -23,12 +23,13 @@ $(document).ready(function() {
             }, 1000); 
         } else {
             img.animate({
-                width: '150px', 
-                height: '100px', 
-                left: '+=100px', 
-                top: '+=100px', 
-                opacity: 0.5 
-            }, 1000); 
+                width: '150px',
+                height: '100px',
+                left: '0',
+                top: '0',
+                opacity: 1
+            }, 1000);
+            
         }
     });
 });
