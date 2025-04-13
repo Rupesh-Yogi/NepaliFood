@@ -166,10 +166,6 @@ nav ul li a:hover {
     background-color: #ff2a00;
 }
 
-.dishes {
-    padding: 20px;
-    text-align: center;
-}
 
 .dish{
     display: inline-block;
