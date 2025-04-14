@@ -1,5 +1,5 @@
 
-
+// For the background color 
 
 $(document).ready(function() {
     
@@ -8,6 +8,7 @@ $(document).ready(function() {
 
 
 
+// For the animation of image when user click on the image
 
 $(document).ready(function() {
     $('.dish').click(function() {
