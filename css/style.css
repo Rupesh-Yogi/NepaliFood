@@ -1,3 +1,11 @@
+/*For whole html page*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Styling the header section */
+
 header h1 {
     padding: 30px;
 
@@ -11,14 +19,14 @@ header h1 {
 
 }
 
+
+/* Adding hover to header  */
 header h1:hover{
     color:white;
 }
 
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 button {
     padding: 10px;
@@ -63,12 +71,13 @@ header .logo-img {
     border-radius: 60%;
 }
 
+/* Styled the text below the header */
 
 .ani {
     font-size: 30px;
     color: rgb(43, 255, 0);
     margin: 10px auto;
-    width: 38ch;  /* Adjusted to full text length */
+    width: 38ch;  
     font-family: monospace;
     white-space: nowrap;
     overflow: hidden;
@@ -82,12 +91,12 @@ header .logo-img {
         width: 0ch;
     }
     to {
-        width: 38ch;  /* Matches full text length */
+        width: 38ch;  
     }
 }
 
 
-
+/* Styled the slogan */
 
 
 .attractive {
@@ -100,9 +109,8 @@ header .logo-img {
         
 }
 
-
-    
-    
+ 
+/* Styled the image  */    
 
 .attractive img {
     max-width: 100%;
@@ -117,6 +125,7 @@ body {
 
 }
 
+/* For the paragraph of body */
 .rupesh {
     color: black;
     margin: 3%;
@@ -124,6 +133,8 @@ body {
     font-size: 28px;
 }
 
+
+/* For the link of Food page */
 .yogi {
     font-size: 28px;
     padding-left: 8%;
@@ -131,6 +142,7 @@ body {
 
 
 
+/* For the style of Navigation Bar */
 nav ul {
     list-style: none;
     display: flex;
@@ -154,6 +166,8 @@ nav ul li a:hover {
     color: yellow;
 }
 
+
+/* For the name of figure */
 .fn1, .fn2 {
     margin: 3%;
     font-size: 25px;
@@ -162,12 +176,12 @@ nav ul li a:hover {
 
 
 
-.btn.btn-primary {
+/* .btn.btn-primary {
     background-color: #ff2a00;
-}
+} */
 
 
-
+/* For the style of image  */
 
 .dish{
     display: inline-block;
@@ -189,6 +203,7 @@ nav ul li a:hover {
     
 }
 
+/* Styled the footer section */
 
 footer {
     background-color: brown;
