@@ -167,12 +167,16 @@ nav ul li a:hover {
 }
 
 
+
+
 .dish{
     display: inline-block;
     margin: 10px;
     width: 45%;
     text-align: center;
     position:relative;
+    margin-left:48px;
+    ;
 }
 
 .dish img {
@@ -180,6 +184,8 @@ nav ul li a:hover {
     height: auto;
     border-radius: 10px;
     position: relative;
+    
+    
     
 }
 
