@@ -1,5 +1,5 @@
 
-
+// For the background color 
 
 $(document).ready(function() {
     
@@ -8,6 +8,7 @@ $(document).ready(function() {
 
 
 
+// For the animation of image when user click on the image
 
 $(document).ready(function() {
     $('.dish').click(function() {
@@ -23,27 +24,14 @@ $(document).ready(function() {
             }, 1000); 
         } else {
             img.animate({
-                width: '150px', 
-                height: '100px', 
-                left: '+=100px', 
-                top: '+=100px', 
-                opacity: 0.5 
-            }, 1000); 
+                width: '150px',
+                height: '100px',
+                left: '0',
+                top: '0',
+                opacity: 1
+            }, 1000);
+            
         }
     });
 });
 
-
-// const toggleThemeBtn = document.getElementById("toggleTheme");
-// toggleThemeBtn.addEventListener("click", () => {
-//   document.body.classList.toggle("dark-mode");
-// });
-
-
-// Get the toggle button
-const toggleButton = document.getElementById('toggleButton');
-
-// Add click event to toggle dark mode
-toggleButton.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-});
