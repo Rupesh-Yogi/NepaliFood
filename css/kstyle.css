@@ -1,0 +1,189 @@
+/* Styling the header section */
+header {
+   background-color: rgba(13, 100, 181, 0.76);
+   color: black;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 0px;
+   height:145px;
+}
+
+/* Header container */
+header .header-container {
+   display: flex;
+   align-items: center;
+}
+
+/* Logo image inside header */
+header .logo-img {
+   height:20%;
+   width: 12%;
+   border-radius: 60%;
+}
+
+/* Header title */
+header h1 {
+   padding: 30px;
+}
+
+/* Hover effect on header title */
+header h1:hover {
+   color: white;
+}
+
+/* Navigation bar */
+nav ul {
+   list-style: none;
+   display: flex;
+   padding: 0;
+   margin: 0;
+}
+
+nav ul li {
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 25px;
+}
+
+nav ul li a:hover {
+   color: yellow;
+}
+
+/* Hero section slogan */
+.attractive {
+   text-align: center;
+   font-size: 20px;
+   color: black;
+   font-weight: bold;
+   padding: 30px;
+   background-color: rgb(105, 115, 14);
+}
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+
+}
+
+
+body {
+   
+   font-family: 'pacifico', cursive;
+   background:whitesmoke;
+   color:rgb(45, 4, 83);
+   
+}
+  
+h1 {
+    font-size:2rem;
+    text-decoration-color:rgb(29, 0, 6);
+    letter-spacing: 2px;
+    text-shadow: 2px 2px yellowgreen;
+}
+.FoodDetails {
+   background: gray;
+   padding: 20px;
+   margin-top: 20px;
+   
+
+
+}
+ 
+img{
+height:180px;
+width:250px;
+float:left;          
+object-fit:cover;
+margin-left:20px;
+margin-right:20px;
+margin-bottom: 10px;
+border-radius: 8px;
+border: 4px solid black;
+
+}
+
+p{
+   color:black;
+}
+
+
+ h2 {
+    
+    padding-bottom: 5px;
+    display: inline-block;
+    color:brown;
+
+    }
+
+ p{ 
+      
+    padding: 10px;
+    margin-bottom: 20px;
+    color:blueviolet;
+ }
+
+
+ select,
+  button {
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color:blueviolet;
+    background-color: black;
+    font-family: 'pacifico', cursive;
+ }
+
+ button:hover {
+    
+    color:brown;
+    border: 2.5px solid ghostwhite;
+    font-family: 'pacifico', cursive;
+ }
+
+ footer {
+   background-color: brown;
+   color: white;
+   text-align: center;
+   padding: 15px ;
+   font-size: 16px;
+   position: relative;
+   width: 100%;
+   height:150px;
+}
+
+footer ul {
+   list-style: none;
+   padding: 0;
+   margin: 10px 0;
+}
+
+footer ul li {
+   display: inline;
+   margin: 0 10px;
+}
+
+footer ul li a {
+   color: white ;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.3s ease;
+   
+}
+
+
+footer ul li a:hover{
+   color:blue;
+}
